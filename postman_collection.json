@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "7f758a7c-a8f1-4432-ab86-353804b3c6f2",
+		"name": "svested_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/bar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/bar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"bar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/pie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/pie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"pie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/chart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"new user name\",\r\n    \"age\": 20,\r\n    \"gender\": \"M\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/chart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"chart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/chart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/chart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"chart"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
